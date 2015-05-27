@@ -4,8 +4,15 @@
 <head>
   <title>This is a test page to learn about html</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div id="navigationBar">
+  <ul>
+    <li><a href="1.html">1</a></li>
+    <li><a href="2.html">2</a></li>
+</div>
+<div id="centeredTextblog">
 <!--<h1>-<h6> stands for heading, the number is inverse to the importance of the
 the title, you want to display.-->
 <h1>Most General Title Of This Site</h1>
@@ -20,7 +27,8 @@ the title, you want to display.-->
   <br>
   The structure of an element is:
   <br>
-  &lt;tagname&gt;content&lt;/tagname&gt;</p>
+  &lt;tagname&gt;content&lt;/tagname&gt;
+</p>
 <p>This is now another paragraph. Do you see a difference to:</p>
 <p>This is a paragraph in html. A paragraph is a text blog.
   <br> <!--<br> stands for break-->
@@ -32,7 +40,7 @@ the title, you want to display.-->
   from other parts of your page.</p>
 <p>
   This is how you implement a link
-  <a href="http://www.w3schools.com">w3schools.com</a>
+  <a href="http://www.w3schools.com" target="_blank">w3schools.com</a>
 </p>
 <p>This is how you implement a picture<br>
   <!--src stands for source, alt stands for the alternative displayed substitue
@@ -47,9 +55,9 @@ the title, you want to display.-->
 <p>Now lets put in a horizontal line to seperate upcoming text...</p>
 <hr>
 <p>
-  If you want to preserve the format of youre text, the use:
+  If you want to preserve the format of youre text, then use:
 </p>
-<pre>
+<pre style="color:red">
   My Bonnie lies over the ocean.
 
   My Bonnie lies over the sea.
@@ -60,7 +68,28 @@ the title, you want to display.-->
 </pre>
 <hr>
 <p>
+  <mark style="background-color:red">This is highlighted in yellow</mark>
   Also a very good site for reference
   <a href="http://selfhtml.org/">selfhtml</a>
+</p>
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+<p>
+  The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+</p>
+<address>
+Written by Jon Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+</div>
 </body>
 </html>

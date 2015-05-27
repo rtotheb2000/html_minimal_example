@@ -1,0 +1,10 @@
+p {color:;text-align:center}
+div#navigationBar {
+  position:absolute;
+  left: 100px;
+}
+div#centeredTextblog {
+  position:absolute;
+  left: 0px;
+  top: 200px;
+}
