@@ -1,95 +1,94 @@
 <!DOCTYPE html>
 <html lang="de">
-<!--meta data (has nothing to do with headings!)-->
 <head>
-  <title>This is a test page to learn about html</title>
+  <title>Kanzlei Schwarzl</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-<div id="navigationBar">
-  <ul>
-    <li><a href="1.html">1</a></li>
-    <li><a href="2.html">2</a></li>
-</div>
-<div id="centeredTextblog">
-<!--<h1>-<h6> stands for heading, the number is inverse to the importance of the
-the title, you want to display.-->
-<h1>Most General Title Of This Site</h1>
-<h2>This Is A Less Important Title</h2>
-<!--<p> stands for paragraph and is used for a textblog-->
-<p title="paragraphs explained">
-  This is a paragraph in html. A paragraph is a text blog. It is also an
-  html element.
-  <br>
-  A html site is consits of many html elements. Elements can be
-  nested (elements can contain elements).
-  <br>
-  The structure of an element is:
-  <br>
-  &lt;tagname&gt;content&lt;/tagname&gt;
-</p>
-<p>This is now another paragraph. Do you see a difference to:</p>
-<p>This is a paragraph in html. A paragraph is a text blog.
-  <br> <!--<br> stands for break-->
-  This is now another paragraph. Do you see the difference?
-  <br>
-  (Well it is not another paragraph)
-</p>
-<p>Note that a paragraph is a part of clearly seperated
-  from other parts of your page.</p>
-<p>
-  This is how you implement a link
-  <a href="http://www.w3schools.com" target="_blank">w3schools.com</a>
-</p>
-<p>This is how you implement a picture<br>
-  <!--src stands for source, alt stands for the alternative displayed substitue
-  -->
-  <img src="some_fower.jpg" alt="__loading this picture failed__"
-  style="width:300px;height:253px">
-  <br>
-  <img src="some_flower.jpg" alt="__loading this picture failed__"
-  style="width:300px;height:253px">
-</p>
-<p>This is how you display something in <strong>BOLD</strong></p>
-<p>Now lets put in a horizontal line to seperate upcoming text...</p>
-<hr>
-<p>
-  If you want to preserve the format of youre text, then use:
-</p>
-<pre style="color:red">
-  My Bonnie lies over the ocean.
 
-  My Bonnie lies over the sea.
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">RA Schwarzl</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navigation">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="Navigation">
+        <ul class="nav navbar-nav pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Über mich</a></li>
+          <li><a href="#">Gebühren</a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="#">Impressum</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  My Bonnie lies over the ocean.
+  <div class="container">
+    <!-- <div class="row">
+      <div class="col-md-2">
+        <img src="Lenins_Unterschrift.png" class="img-responsive" alt="Lenins_Unterschrift">
+      </div>
+      <div class="col-md-10">
+        <h1 class="text-center"></h1>
+      </div>
+    </div> -->
 
-  Oh, bring back my Bonnie to me.
-</pre>
-<hr>
-<p>
-  <mark style="background-color:red">This is highlighted in yellow</mark>
-  Also a very good site for reference
-  <a href="http://selfhtml.org/">selfhtml</a>
-</p>
-<p>Here is a quote from WWF's website:</p>
-<blockquote cite="http://www.worldwildlife.org/who/index.html">
-For 50 years, WWF has been protecting the future of nature.
-The world's leading conservation organization,
-WWF works in 100 countries and is supported by
-1.2 million members in the United States and
-close to 5 million globally.
-</blockquote>
-<p>
-  The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
-</p>
-<address>
-Written by Jon Doe.<br>
-Visit us at:<br>
-Example.com<br>
-Box 564, Disneyland<br>
-USA
-</address>
-</div>
+    <div class="row">
+      <div class="col-md-2">
+        <img src="Bewerbungsfoto modern 2014.jpg" class="img-responsive" alt="Poitrait">
+        <h2>Kontakt</h2>
+        <address>
+          Flankenschanze 29 <br>
+          13585 Berlin <br>
+          <abbr title="Telefon">Tel:</abbr> 030 / 430 26408
+        </address>
+        <address>
+          <i class="glyphicon glyphicon-envelope"></i>
+          <a href="mailto:info@kanzlei-schwarzl.de">info&#64;ra-schwarzl.de</a>
+        </address>
+      </div>
+      <div class="col-md-10">
+        <div class="jumbotron">
+          <h2>Rechtlicher Beistand für Ihr Unternehmen</h2>
+          <p>
+            Von der Wahl der richtigen Gesellschaftsform
+            bis zur Erstellung Ihres Jahresabschlusses -
+            Ich stehe Ihnen und Ihrem Unternehmen gerne zur Seite
+          </p>
+          <p>
+            Auch für jegliche Rechtsfragen des Alltags bin ich für Sie da.
+          </p>
+          <dl class="dl-horizontal">
+          <dt><i class="glyphicon glyphicon-pencil"></i></dt>
+          <dd>Ich setzte mich für Sie ein,<br> damit Sie nicht benachteiligt werden.</dd>
+          <dt><i class="glyphicon glyphicon-time"></i></dt>
+          <dd>Ich nehme mir die Zeit,<br> damit Sie mehr Zeit für sich und Ihr Unternehmen haben.</dd>
+          <dt><i class="glyphicon glyphicon-euro"></i></dt>
+          <dd>Ich nehme Ihre wirtschaftlichen Interessen wahr,<br> indem ich für Sie Geld einspare.</dd>
+          <p>
+            Kontaktieren Sie mich per Mail und ich melde mich
+            <strong>
+              innerhalb eines Werktages
+            </strong>
+            bei Ihnen zurück.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
 </body>
 </html>
